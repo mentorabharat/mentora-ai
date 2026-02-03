@@ -1,0 +1,32 @@
+{
+  "exams": {
+    "civil": {
+      "upsc": {
+        "prelims": {
+          "allowed": true,
+          "topics": []
+        },
+        "mains": {
+          "allowed": false
+        }
+      },
+      "mpsc": {
+        "prelims": {
+          "allowed": true
+        }
+      },
+      "jee": {
+        "allowed": true
+      },
+      "neet": {
+        "allowed": true
+      },
+      "railways": {
+        "allowed": true
+      }
+    },
+    "defence": {
+      "allowed": false
+    }
+  }
+}
