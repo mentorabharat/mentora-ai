@@ -1,0 +1,22 @@
+{
+  "education": {
+    "levels": [
+      "primary",
+      "secondary",
+      "higher_secondary",
+      "undergraduate",
+      "postgraduate",
+      "professional",
+      "lifelong"
+    ],
+    "streams": [
+      "science",
+      "technology",
+      "medical",
+      "arts",
+      "commerce",
+      "law",
+      "business"
+    ]
+  }
+}
