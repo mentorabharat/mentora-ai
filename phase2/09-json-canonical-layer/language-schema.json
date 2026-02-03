@@ -1,0 +1,8 @@
+{
+  "languages": {
+    "default": "en",
+    "active": ["en", "hi", "mr", "gu"],
+    "architecture_ready_for": 7100,
+    "translation_is_not_learning": true
+  }
+}
