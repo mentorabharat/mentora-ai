@@ -1,0 +1,26 @@
+{
+  "it": {
+    "tracks": {
+      "beginner": {
+        "theory_required": true,
+        "practical_required": true
+      },
+      "intermediate": {
+        "theory_required": true,
+        "practical_required": true
+      },
+      "advanced": {
+        "theory_required": false,
+        "practical_required": true
+      }
+    },
+    "domains": [
+      "web",
+      "backend",
+      "database",
+      "linux",
+      "cloud",
+      "ai"
+    ]
+  }
+}
