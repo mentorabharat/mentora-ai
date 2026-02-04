@@ -1,10 +1,32 @@
-# Block-13 Lock Decision
+# Growth Visibility Lock Decision
 
-Growth in Mentora World AI:
-- Exists
-- Is measured
-- Is protected
-- Is never shown publicly
+User growth data in Mentora World AI is strictly private.
 
-This block is permanently locked.
-Future phases may only read these signals, not expose them.
+## Rules
+
+1. No public user count
+2. No visible visitor numbers
+3. No popularity metrics
+4. No engagement scores shown to users
+
+## Visibility
+
+- Growth data is visible only to:
+  - Founder
+  - Authorized system intelligence (future)
+
+## Reason
+
+Public growth metrics distort learning behavior and decision-making.
+Mentora prioritizes educational value over perceived popularity.
+
+## Future Provision
+
+Growth metrics may be selectively disclosed only to:
+- Institutions
+- Auditors
+- Strategic partners
+
+Students and mentors will never see platform-wide growth numbers.
+
+Status: PERMANENTLY LOCKED
