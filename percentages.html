@@ -2,59 +2,92 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Percentages – Mentora AI World</title>
+  <title>Percentages – Mentora World AI</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <style>
+    :root {
+      --bg: #0f2a2e;
+      --card: rgba(255,255,255,0.05);
+      --accent: #6fe7dd;
+      --text: #eaf6f6;
+      --muted: rgba(255,255,255,0.7);
+    }
+
     body {
       margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background-color: #0f2f2f;
-      color: #e6f5f3;
-      line-height: 1.6;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
     }
+
     header {
-      background-color: #0b2424;
-      padding: 20px;
+      padding: 34px 20px 26px;
       text-align: center;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+      background: linear-gradient(180deg, rgba(255,255,255,0.03), transparent);
     }
+
+    .logo {
+      width: 170px;
+      margin-bottom: 6px;
+      opacity: 0.95;
+    }
+
     header h1 {
-      margin: 0;
-      color: #9ff3e7;
+      margin: 8px 0 6px;
+      font-size: 30px;
+      color: var(--accent);
     }
+
     nav {
-      margin-top: 10px;
+      margin-top: 18px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
     }
+
     nav a {
-      color: #bfeee6;
-      margin: 0 10px;
+      color: var(--accent);
       text-decoration: none;
       font-size: 14px;
-    }
-    nav a:hover {
-      text-decoration: underline;
-    }
-    .container {
-      max-width: 900px;
-      margin: 30px auto;
-      padding: 20px;
-      background-color: #123838;
+      padding: 7px 14px;
       border-radius: 8px;
+      background: rgba(255,255,255,0.04);
     }
+
+    nav a:hover {
+      background: rgba(255,255,255,0.1);
+    }
+
+    main {
+      max-width: 900px;
+      margin: 36px auto;
+      padding: 0 20px;
+    }
+
+    .card {
+      background: var(--card);
+      padding: 26px;
+      border-radius: 16px;
+      border: 1px solid rgba(255,255,255,0.06);
+    }
+
     h2 {
-      color: #9ff3e7;
       margin-top: 0;
+      color: var(--accent);
     }
-    .box {
-      background-color: #0f2f2f;
-      padding: 15px;
-      border-radius: 6px;
-      margin-bottom: 20px;
-    }
+
     footer {
       text-align: center;
-      padding: 20px;
+      padding: 28px 20px;
+      border-top: 1px solid rgba(255,255,255,0.08);
       font-size: 13px;
-      color: #a6dcd3;
+      color: var(--muted);
+      margin-top: 40px;
     }
   </style>
 </head>
@@ -62,7 +95,9 @@
 <body>
 
 <header>
-  <h1>Mentora AI World</h1>
+  <img src="Mentora_Logo_Transparent.png" class="logo" alt="Mentora Logo">
+  <h1>Percentages</h1>
+
   <nav>
     <a href="index.html">Home</a>
     <a href="averages.html">Averages</a>
@@ -73,72 +108,18 @@
   </nav>
 </header>
 
-<div class="container">
-  <h2>Percentages</h2>
-
-  <div class="box">
-    <h3>What is a Percentage?</h3>
+<main>
+  <section class="card">
+    <h2>Understanding Percentages</h2>
     <p>
-      A percentage shows a value as a part of 100.
-      It helps us compare quantities on a common scale.
+      Percentages help us understand proportions, growth, comparison,
+      and change — one of the most practical concepts in daily life.
     </p>
-  </div>
-
-  <div class="box">
-    <h3>Why Percentages Matter</h3>
-    <ul>
-      <li>Used everywhere — marks, discounts, profit & loss</li>
-      <li>Makes comparison fair and simple</li>
-      <li>Connects numbers to real-world meaning</li>
-    </ul>
-  </div>
-
-  <div class="box">
-    <h3>Basic Understanding</h3>
-    <p>
-      <strong>1% = 1 part out of 100</strong><br/>
-      50% means 50 out of 100<br/>
-      25% means 25 out of 100
-    </p>
-  </div>
-
-  <div class="box">
-    <h3>Simple Formula</h3>
-    <p>
-      <strong>Percentage = (Part ÷ Whole) × 100</strong>
-    </p>
-  </div>
-
-  <div class="box">
-    <h3>Example</h3>
-    <p>
-      A student scores 45 marks out of 60.<br/>
-      Percentage = (45 ÷ 60) × 100 = <strong>75%</strong>
-    </p>
-  </div>
-
-  <div class="box">
-    <h3>How Mentora Teaches Percentages</h3>
-    <ul>
-      <li>Think in parts, not formulas</li>
-      <li>Convert problems into simple ratios</li>
-      <li>Understand before calculating</li>
-      <li>No shortcut confusion</li>
-    </ul>
-  </div>
-
-  <div class="box">
-    <h3>Coming Next</h3>
-    <p>
-      👉 Percentage increase & decrease<br/>
-      👉 Real-life applications (profit, discount)<br/>
-      👉 AI-guided practice (Phase-2)
-    </p>
-  </div>
-</div>
+  </section>
+</main>
 
 <footer>
-  © Mentora AI World • Learning with clarity
+  <strong>Mentora World AI</strong>
 </footer>
 
 </body>
