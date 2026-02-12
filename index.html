@@ -39,9 +39,19 @@
     }
 
     .logo {
-      width: 140px;
-      margin-bottom: 10px;
-    }
+  width: 140px;
+  margin-bottom: 10px;
+
+  filter: drop-shadow(0 0 12px rgba(111, 231, 221, 0.35));
+  opacity: 0.95;
+
+  transition: all 0.3s ease;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 18px rgba(111, 231, 221, 0.55));
+  opacity: 1;
+}
 
     header h1 {
       margin: 10px 0 0;
