@@ -2,108 +2,132 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>About | Mentora World AI</title>
+  <title>About – Mentora World AI</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <style>
+    :root {
+      --bg: #0f2a2e;
+      --card: rgba(255,255,255,0.05);
+      --accent: #6fe7dd;
+      --text: #eaf6f6;
+      --muted: rgba(255,255,255,0.7);
+    }
+
     body {
       margin: 0;
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      background: #0f2a2e;
-      color: #eaf6f6;
-      line-height: 1.7;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
     }
 
-    .container {
+    header {
+      padding: 34px 20px 26px;
+      text-align: center;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+      background: linear-gradient(180deg, rgba(255,255,255,0.03), transparent);
+    }
+
+    .logo {
+      width: 170px;
+      margin-bottom: 6px;
+      opacity: 0.95;
+    }
+
+    header h1 {
+      margin: 8px 0 6px;
+      font-size: 30px;
+      color: var(--accent);
+    }
+
+    nav {
+      margin-top: 18px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    nav a {
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 14px;
+      padding: 7px 14px;
+      border-radius: 8px;
+      background: rgba(255,255,255,0.04);
+    }
+
+    nav a:hover {
+      background: rgba(255,255,255,0.1);
+    }
+
+    main {
       max-width: 900px;
-      margin: auto;
-      padding: 40px 20px;
+      margin: 36px auto;
+      padding: 0 20px;
     }
 
-    h1 {
-      color: #6fe7dd;
-      margin-bottom: 20px;
+    .card {
+      background: var(--card);
+      padding: 26px;
+      border-radius: 16px;
+      border: 1px solid rgba(255,255,255,0.06);
     }
 
     h2 {
-      color: #6fe7dd;
-      margin-top: 30px;
-      font-size: 20px;
+      margin-top: 0;
+      color: var(--accent);
     }
 
-    p {
-      color: rgba(255,255,255,0.8);
-      font-size: 15px;
-    }
-
-    ul {
-      color: rgba(255,255,255,0.8);
-      font-size: 15px;
-      padding-left: 20px;
-    }
-
-    a {
-      color: #6fe7dd;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
+    footer {
+      text-align: center;
+      padding: 28px 20px;
+      border-top: 1px solid rgba(255,255,255,0.08);
+      font-size: 13px;
+      color: var(--muted);
+      margin-top: 40px;
     }
   </style>
 </head>
 
 <body>
 
-<div class="container">
+<header>
+  <img src="Mentora_Logo_Transparent.png" class="logo" alt="Mentora Logo">
+  <h1>About Mentora</h1>
 
-  <h1>About Mentora World AI</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="averages.html">Averages</a>
+    <a href="percentages.html">Percentages</a>
+    <a href="ratio.html">Ratio</a>
+    <a href="about.html">About</a>
+    <a href="privacy.html">Privacy</a>
+  </nav>
+</header>
 
-  <p>
-    Mentora World AI is a human-first AI-assisted education ecosystem designed
-    to make learning clear, calm, ethical, and pressure-free.
-  </p>
+<main>
+  <section class="card">
+    <h2>Mentora World AI</h2>
+    <p>
+      Mentora World AI is designed as a human-first learning ecosystem.
+      It is built on clarity, responsibility, and ethical guidance —
+      where AI supports learning without replacing human judgement.
+    </p>
 
-  <h2>Core Philosophy</h2>
-  <p>
-    Mentora is built on a simple belief:
-    learning should feel like guidance — not stress, fear, or comparison.
-  </p>
+    <p>
+      The goal of Mentora is not speed, pressure, or competition —
+      but understanding, confidence, and intelligent growth.
+    </p>
+  </section>
+</main>
 
-  <h2>What Mentora Focuses On</h2>
-  <ul>
-    <li>Conceptual clarity over memorization</li>
-    <li>Understanding before speed</li>
-    <li>Ethical & responsible learning</li>
-    <li>Human + AI collaborative model</li>
-  </ul>
-
-  <h2>Who Mentora Is For</h2>
-  <ul>
-    <li>Students & competitive exam learners</li>
-    <li>IT & skill-based learners</li>
-    <li>Working professionals</li>
-    <li>Lifelong learners</li>
-  </ul>
-
-  <h2>Long-Term Vision</h2>
-  <p>
-    Mentora World AI aims to evolve into a global learning & life-guidance system
-    spanning multiple education levels, languages, and knowledge domains —
-    always maintaining human authority and ethical boundaries.
-  </p>
-
-  <h2>Important Note</h2>
-  <p>
-    Mentora World AI is not designed to replace teachers, institutions, or formal
-    education systems. It exists to assist, simplify, and enhance understanding.
-  </p>
-
-  <br /><br />
-
-  <a href="index.html">← Back to Home</a>
-
-</div>
+<footer>
+  <strong>Mentora World AI</strong>
+</footer>
 
 </body>
 </html>
