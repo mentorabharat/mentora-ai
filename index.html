@@ -9,7 +9,7 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <meta name="description" content="Mentora World AI – A human-first AI learning ecosystem focused on clarity, thinking, and lifelong intelligence." />
+  <meta name="description" content="Mentora World AI – A clarity-driven, human-first AI education ecosystem." />
   <meta name="theme-color" content="#0f2a2e" />
 
   <style>
@@ -36,25 +36,27 @@
 
     header {
       text-align: center;
-      padding: 40px 20px 30px;
+      padding: 42px 20px 30px;
       border-bottom: 1px solid rgba(255,255,255,0.08);
     }
 
     .logo {
-      width: 160px;
+      width: 150px;
       margin-bottom: 18px;
+      filter: drop-shadow(0 0 18px rgba(111,231,221,0.25));
     }
 
     header h1 {
-      font-size: 34px;
+      font-size: 36px;
       color: var(--accent);
       margin-bottom: 10px;
+      letter-spacing: 0.5px;
     }
 
     header p {
       font-size: 15px;
       color: var(--muted);
-      max-width: 720px;
+      max-width: 640px;
       margin: 0 auto 22px;
     }
 
@@ -62,40 +64,52 @@
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
-      gap: 10px;
+      gap: 12px;
     }
 
     nav a {
       text-decoration: none;
       font-size: 14px;
       color: var(--accent);
-      padding: 8px 14px;
+      padding: 10px 18px;
       background: rgba(255,255,255,0.04);
-      border-radius: 8px;
-      transition: 0.2s;
+      border-radius: 10px;
+      transition: 0.25s;
     }
 
     nav a:hover {
-      background: rgba(255,255,255,0.10);
+      background: rgba(255,255,255,0.12);
+      transform: translateY(-1px);
     }
 
     main {
       max-width: 1000px;
-      margin: 40px auto;
+      margin: 38px auto;
       padding: 0 20px;
     }
 
     .card {
       background: var(--card);
       padding: 26px;
-      border-radius: 14px;
-      margin-bottom: 26px;
+      border-radius: 16px;
+      margin-bottom: 24px;
+      transition: 0.25s;
+    }
+
+    .card:hover {
+      background: rgba(255,255,255,0.07);
     }
 
     h2 {
       color: var(--accent);
       font-size: 22px;
-      margin-bottom: 14px;
+      margin-bottom: 12px;
+    }
+
+    p {
+      color: var(--muted);
+      font-size: 15px;
+      margin-bottom: 10px;
     }
 
     ul {
@@ -125,6 +139,17 @@
     footer a:hover {
       text-decoration: underline;
     }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 28px;
+      }
+
+      nav a {
+        padding: 8px 14px;
+        font-size: 13px;
+      }
+    }
   </style>
 </head>
 
@@ -136,8 +161,8 @@
   <h1>Mentora World AI</h1>
 
   <p>
-    A human-first AI education ecosystem where learning is clear, respectful,
-    pressure-free, and built for lifelong intelligence.
+    A clarity-driven, human-first learning ecosystem designed to simplify understanding,
+    reduce confusion, and promote structured intellectual growth.
   </p>
 
   <nav>
@@ -153,42 +178,43 @@
 <main>
 
   <section class="card">
-    <h2>What Mentora Is</h2>
+    <h2>What Mentora Offers</h2>
     <ul>
-      <li>An AI-guided learning companion — not a replacement for humans</li>
-      <li>Designed for students, teachers, professionals, and lifelong learners</li>
-      <li>No judgement, no pressure, no comparison</li>
-      <li>Focused on clarity, thinking, and confidence</li>
+      <li>Concept-first learning</li>
+      <li>Pressure-free understanding</li>
+      <li>Clarity-driven explanations</li>
+      <li>Structured thinking development</li>
     </ul>
   </section>
 
   <section class="card">
-    <h2>How Learning Works</h2>
-    <ul>
-      <li>Understanding first, speed later</li>
-      <li>One concept at a time</li>
-      <li>Smart repetition only where needed</li>
-      <li>Learning adapts to the learner</li>
-    </ul>
+    <h2>Learning Philosophy</h2>
+    <p>
+      Mentora focuses on clarity before complexity and understanding before speed.
+    </p>
+
+    <p>
+      The system is designed to adapt explanations to human reasoning,
+      not force learners into rigid patterns.
+    </p>
   </section>
 
   <section class="card">
-    <h2>Phase-1 Status</h2>
+    <h2>Current Platform Status</h2>
     <ul>
-      <li>✔ Platform foundation live</li>
-      <li>✔ Core navigation stable</li>
-      <li>✔ Learning modules activated</li>
-      <li>⏳ Continuous refinement ahead</li>
+      <li>✔ Foundation architecture established</li>
+      <li>✔ Core learning modules active</li>
+      <li>✔ Visual & structural stability achieved</li>
+      <li>⏳ Advanced learning layers in progress</li>
     </ul>
   </section>
 
 </main>
 
 <footer>
-  <strong>Mentora World AI</strong><br />
-  Built with clarity • humanity • responsibility<br /><br />
+  Mentora World AI • Built with Clarity & Responsibility<br /><br />
   <a href="disclaimer.html">Disclaimer</a>
 </footer>
 
 </body>
-</html>    
+</html>
