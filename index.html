@@ -3,10 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <title>Mentora World AI</title>
-  <link rel="icon" type="image/png" href="favicon.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Mentora World AI – A human-first AI education ecosystem focused on clarity, thinking, and lifelong intelligence." />
+
+  <meta name="description" content="Mentora World AI – A human-first AI learning ecosystem focused on clarity, thinking, and lifelong intelligence." />
   <meta name="theme-color" content="#0f2a2e" />
 
   <style>
@@ -15,54 +18,47 @@
       --card: rgba(255,255,255,0.05);
       --accent: #6fe7dd;
       --text: #eaf6f6;
-      --muted: rgba(255,255,255,0.7);
+      --muted: rgba(255,255,255,0.65);
     }
 
     * {
       box-sizing: border-box;
+      margin: 0;
+      padding: 0;
     }
 
     body {
-      margin: 0;
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       background: var(--bg);
       color: var(--text);
       line-height: 1.6;
     }
 
-    /* ✅ HEADER */
     header {
-      padding: 34px 20px 26px;
       text-align: center;
+      padding: 40px 20px 30px;
       border-bottom: 1px solid rgba(255,255,255,0.08);
-      background: linear-gradient(180deg, rgba(255,255,255,0.03), transparent);
     }
 
     .logo {
-      width: 170px;
-      margin-bottom: 6px;
-      opacity: 0.95;
+      width: 160px;
+      margin-bottom: 18px;
     }
 
     header h1 {
-      margin: 8px 0 6px;
       font-size: 34px;
       color: var(--accent);
-      letter-spacing: 0.4px;
+      margin-bottom: 10px;
     }
 
     header p {
-      margin-top: 6px;
       font-size: 15px;
       color: var(--muted);
-      max-width: 680px;
-      margin-left: auto;
-      margin-right: auto;
+      max-width: 720px;
+      margin: 0 auto 22px;
     }
 
-    /* ✅ NAVIGATION */
     nav {
-      margin-top: 18px;
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
@@ -70,64 +66,60 @@
     }
 
     nav a {
-      color: var(--accent);
       text-decoration: none;
       font-size: 14px;
-      padding: 7px 14px;
-      border-radius: 8px;
+      color: var(--accent);
+      padding: 8px 14px;
       background: rgba(255,255,255,0.04);
-      transition: 0.2s ease;
+      border-radius: 8px;
+      transition: 0.2s;
     }
 
     nav a:hover {
-      background: rgba(255,255,255,0.1);
-      transform: translateY(-1px);
+      background: rgba(255,255,255,0.10);
     }
 
-    /* ✅ MAIN */
     main {
       max-width: 1000px;
-      margin: 36px auto;
+      margin: 40px auto;
       padding: 0 20px;
     }
 
     .card {
       background: var(--card);
       padding: 26px;
-      border-radius: 16px;
+      border-radius: 14px;
       margin-bottom: 26px;
-      border: 1px solid rgba(255,255,255,0.06);
     }
 
     h2 {
-      margin-top: 0;
       color: var(--accent);
       font-size: 22px;
+      margin-bottom: 14px;
     }
 
     ul {
-      padding-left: 20px;
-      margin: 10px 0 0;
+      padding-left: 18px;
+      color: var(--muted);
+      font-size: 15px;
     }
 
     li {
       margin-bottom: 6px;
     }
 
-    /* ✅ FOOTER */
     footer {
       text-align: center;
-      padding: 28px 20px;
+      padding: 30px 20px;
       border-top: 1px solid rgba(255,255,255,0.08);
       font-size: 13px;
       color: var(--muted);
-      margin-top: 40px;
+      margin-top: 50px;
     }
 
     footer a {
       color: var(--accent);
       text-decoration: none;
-      margin: 0 6px;
     }
 
     footer a:hover {
@@ -139,9 +131,7 @@
 <body>
 
 <header>
-
-  <!-- ✅ LOGO -->
-  <img src="Mentora_Logo_Transparent.png" class="logo" alt="Mentora Logo">
+  <img src="logo.png" alt="Mentora Logo" class="logo" />
 
   <h1>Mentora World AI</h1>
 
@@ -158,7 +148,6 @@
     <a href="about.html">About</a>
     <a href="privacy.html">Privacy</a>
   </nav>
-
 </header>
 
 <main>
@@ -168,8 +157,8 @@
     <ul>
       <li>An AI-guided learning companion — not a replacement for humans</li>
       <li>Designed for students, teachers, professionals, and lifelong learners</li>
-      <li>No judgement, no pressure, no unhealthy comparison</li>
-      <li>Built for clarity, thinking, confidence, and real understanding</li>
+      <li>No judgement, no pressure, no comparison</li>
+      <li>Focused on clarity, thinking, and confidence</li>
     </ul>
   </section>
 
@@ -179,7 +168,7 @@
       <li>Understanding first, speed later</li>
       <li>One concept at a time</li>
       <li>Smart repetition only where needed</li>
-      <li>Learning adapts to the learner — not the other way around</li>
+      <li>Learning adapts to the learner</li>
     </ul>
   </section>
 
@@ -188,18 +177,8 @@
     <ul>
       <li>✔ Platform foundation live</li>
       <li>✔ Core navigation stable</li>
-      <li>✔ First learning modules activated</li>
-      <li>⏳ Feedback-driven refinement next</li>
-    </ul>
-  </section>
-
-  <section class="card">
-    <h2>What Comes Next</h2>
-    <ul>
-      <li>Adaptive learning intelligence</li>
-      <li>Human + AI mentorship balance</li>
-      <li>Regional language expansion</li>
-      <li>Deep personalization engine</li>
+      <li>✔ Learning modules activated</li>
+      <li>⏳ Continuous refinement ahead</li>
     </ul>
   </section>
 
@@ -208,11 +187,8 @@
 <footer>
   <strong>Mentora World AI</strong><br />
   Built with clarity • humanity • responsibility<br /><br />
-
-  <a href="about.html">About</a> |
-  <a href="privacy.html">Privacy</a> |
   <a href="disclaimer.html">Disclaimer</a>
 </footer>
 
 </body>
-</html>
+</html>    
