@@ -2,99 +2,273 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Disclaimer | Mentora World AI</title>
+  <title>Disclaimer – Mentora World AI</title>
+
+  <link rel="icon" type="image/png" href="favicon.png" />
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Disclaimer of Mentora World AI." />
+  <meta name="theme-color" content="#0f2a2e" />
 
   <style>
-    body {
+    :root {
+      --bg: #0f2a2e;
+      --card: rgba(255,255,255,0.05);
+      --accent: #6fe7dd;
+      --text: #eaf6f6;
+      --muted: rgba(255,255,255,0.65);
+    }
+
+    * {
+      box-sizing: border-box;
       margin: 0;
+      padding: 0;
+    }
+
+    body {
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      background: #0f2a2e;
-      color: #eaf6f6;
-      line-height: 1.7;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
     }
 
-    .container {
-      max-width: 900px;
-      margin: auto;
-      padding: 40px 20px;
+    header {
+      text-align: center;
+      padding: 36px 20px 26px;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
     }
 
-    h1 {
-      color: #6fe7dd;
-      margin-bottom: 20px;
+    .logo {
+      width: 140px;
+      margin-bottom: 14px;
+    }
+
+    header h1 {
+      font-size: 28px;
+      color: var(--accent);
+      margin-bottom: 6px;
+    }
+
+    header p {
+      font-size: 14px;
+      color: var(--muted);
+      margin-bottom: 18px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    nav a {
+      text-decoration: none;
+      font-size: 14px;
+      color: var(--accent);
+      padding: 8px 14px;
+      background: rgba(255,255,255,0.04);
+      border-radius: 8px;
+      transition: 0.2s;
+    }
+
+    nav a:hover {
+      background: rgba(255,255,255,0.10);
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 34px auto;
+      padding: 0 20px;
+    }
+
+    .card {
+      background: var(--card);
+      padding: 24px;
+      border-radius: 14px;
+      margin-bottom: 22px;
     }
 
     h2 {
-      color: #6fe7dd;
-      margin-top: 28px;
-      font-size: 18px;
+      color: var(--accent);
+      font-size: 19px;
+      margin-bottom: 10px;
     }
 
     p {
-      color: rgba(255,255,255,0.8);
-      font-size: 14px;
+      color: var(--muted);
+      font-size: 15px;
+      margin-bottom: 10px;
     }
 
-    a {
-      color: #6fe7dd;
-      text-decoration: none;
+    ul {
+      padding-left: 18px;
+      color: var(--muted);
+      font-size: 15px;
     }
 
-    a:hover {
-      text-decoration: underline;
+    li {
+      margin-bottom: 6px;
+    }
+
+    .highlight {
+      background: rgba(111,231,221,0.08);
+      padding: 14px;
+      border-radius: 10px;
+      margin-top: 10px;
+      color: var(--accent);
+    }
+
+    footer {
+      text-align: center;
+      padding: 26px 20px;
+      border-top: 1px solid rgba(255,255,255,0.08);
+      font-size: 13px;
+      color: var(--muted);
+      margin-top: 40px;
     }
   </style>
 </head>
 
 <body>
 
-<div class="container">
+<header>
+  <img src="logo.png" alt="Mentora Logo" class="logo" />
 
   <h1>Disclaimer</h1>
+  <p>Clarity • Responsibility • Transparency</p>
 
-  <p>
-    Mentora World AI is designed as an educational guidance platform intended to
-    support learning, understanding, and conceptual clarity.
-  </p>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="averages.html">Averages</a>
+    <a href="percentages.html">Percentages</a>
+    <a href="ratio.html">Ratio</a>
+    <a href="about.html">About</a>
+    <a href="privacy.html">Privacy</a>
+  </nav>
+</header>
 
-  <h2>Educational Purpose Only</h2>
-  <p>
-    All content provided on this platform is intended solely for educational
-    and informational purposes. Mentora World AI does not guarantee exam results,
-    academic performance, or professional outcomes.
-  </p>
+<main>
 
-  <h2>No Professional Liability</h2>
-  <p>
-    Mentora World AI shall not be held responsible for decisions made based on
-    platform content. Users are encouraged to exercise independent judgment
-    and consult qualified professionals where necessary.
-  </p>
+  <section class="card">
+    <h2>1. Educational Purpose</h2>
 
-  <h2>Human + AI Support Model</h2>
-  <p>
-    Mentora World AI operates as a learning assistance system and is not a
-    replacement for teachers, institutions, certifications, or formal education systems.
-  </p>
+    <p>
+      Mentora World AI is an educational and intellectual guidance platform.
+    </p>
 
-  <h2>Content Accuracy</h2>
-  <p>
-    While reasonable efforts are made to maintain accuracy, Mentora World AI
-    makes no warranties regarding completeness, reliability, or suitability
-    of information.
-  </p>
+    <p>
+      The information provided is designed to support understanding,
+      conceptual clarity, and structured thinking.
+    </p>
+  </section>
 
-  <h2>Contact</h2>
-  <p>
-    For any concerns, please contact us through the official Mentora channels.
-  </p>
+  <section class="card">
+    <h2>2. No Professional Advice</h2>
 
-  <br /><br />
+    <p>
+      Mentora World AI does not provide legal, medical, financial,
+      or professional advisory services.
+    </p>
 
-  <a href="index.html">← Back to Home</a>
+    <ul>
+      <li>❌ No legal advice</li>
+      <li>❌ No medical diagnosis</li>
+      <li>❌ No financial recommendations</li>
+      <li>❌ No guaranteed outcomes</li>
+    </ul>
+  </section>
 
-</div>
+  <section class="card">
+    <h2>3. Accuracy & Limitations</h2>
+
+    <p>
+      While efforts are made to maintain clarity and correctness,
+      Mentora World AI cannot guarantee absolute accuracy at all times.
+    </p>
+
+    <p>
+      Users are encouraged to independently verify critical decisions
+      using authoritative sources.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>4. User Responsibility</h2>
+
+    <p>
+      Learning outcomes, interpretations, and decisions based on platform content
+      remain the responsibility of the user.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>5. Technology & AI Usage</h2>
+
+    <div class="highlight">
+      AI = Assisting Intelligence • Human = Authority
+    </div>
+
+    <p>
+      Mentora World AI may utilize artificial intelligence systems
+      to enhance clarity, structuring, and explanation.
+    </p>
+
+    <p>
+      AI outputs are supportive tools, not final authorities.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>6. External References</h2>
+
+    <p>
+      Mentora World AI may reference publicly available educational resources.
+    </p>
+
+    <p>
+      Mentora is not responsible for third-party content,
+      availability, or policy changes.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>7. Platform Integrity & Trust</h2>
+
+    <p>
+      Mentora World AI is built on principles of clarity, ethical responsibility,
+      and intellectual stability.
+    </p>
+
+    <p>
+      The platform does not promote misinformation, manipulation,
+      or unrealistic guarantees.
+    </p>
+
+    <p>
+      Content is designed to encourage rational thinking,
+      not dependency or blind acceptance.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>8. Continuous Evolution</h2>
+
+    <p>
+      Mentora World AI is an evolving system.
+    </p>
+
+    <p>
+      Features, explanations, and structures may improve over time
+      without altering the core ethical philosophy.
+    </p>
+  </section>
+
+</main>
+
+<footer>
+  Mentora World AI • Built with Responsibility & Intellectual Integrity
+</footer>
 
 </body>
 </html>
